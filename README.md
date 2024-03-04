@@ -1,6 +1,6 @@
 # Mars Rover Photo Fetcher
 
-![Mars Rover](link-to-your-image.png)
+![Photo by Curiosity](https://mars.nasa.gov/msl-raw-images/msss/00974/mhli/0974MH0004800050304356C00_DXXX.jpg)
 
 This Python program allows you to fetch and display photos taken by NASA's Mars rovers (Curiosity, Opportunity, and Spirit) on a specified Earth date. The data is obtained from the [Mars Rover Photos API](https://api.nasa.gov/mars-photos/api/v1/rovers) maintained by Chris Cerami.
 
@@ -8,7 +8,6 @@ This Python program allows you to fetch and display photos taken by NASA's Mars 
 
 - [Features](#features)
 - [How to Use](#how-to-use)
-- [Example Queries](#example-queries)
 - [API Documentation](#api-documentation)
 - [Credits](#credits)
 
@@ -23,13 +22,13 @@ This Python program allows you to fetch and display photos taken by NASA's Mars 
 1. Clone the repository to your local machine:
 
     ```bash
-    git clone https://github.com/your-username/mars-rover-photo-fetcher.git
+    git clone [https://github.com/your-username/mars-rover-photo-fetcher.git](https://github.com/stfn333/Mars-Rover-Photos-Fetching.git)
     ```
 
 2. Navigate to the project directory:
 
     ```bash
-    cd mars-rover-photo-fetcher
+    cd Mars-Rover-Photos-Fetchingr
     ```
 
 3. Install dependencies (ensure you have Python and `requests` installed):
@@ -45,20 +44,6 @@ This Python program allows you to fetch and display photos taken by NASA's Mars 
     ```
 
 5. Follow the prompts to select the rover and enter the Earth date.
-
-## Example Queries
-
-- Fetch photos on a specific Martian sol:
-
-    ```bash
-    https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=1000&api_key=DEMO_KEY
-    ```
-
-- Fetch photos on a specific Earth date:
-
-    ```bash
-    https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?earth_date=2015-6-3&api_key=DEMO_KEY
-    ```
 
 ## API Documentation
 
